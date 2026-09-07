@@ -63,20 +63,25 @@ export const productsController = async (req: IncomingMessage, res: ServerRespon
                 message: "data not found",
                 data: "",
             }));
+            return;
         }
-            const updateProduct= {
-                ...body,
-                id: urlId,
-            }
-            products.push(updateProduct)
-            console.log("data updated")
-            console.log(products)
+        const {id, ...bodyWithoutId}= body
+        const updatedProduct = {
+            id: products[index].id,
+            ...bodyWithoutId,
+        }
 
-            res.writeHead(200, { "content-type": "application/json" });
-            res.end(JSON.stringify({
-                message: "data updated",
-                data: "",
-            }));
+
+        products[index]= updatedProduct;
+        insertProduct(products)
+        console.log("data updated")
+        console.log(products, index, updatedProduct)
+
+        res.writeHead(200, { "content-type": "application/json" });
+        res.end(JSON.stringify({
+            message: "data updated",
+            data: updatedProduct,
+        }));
     }
 
 };

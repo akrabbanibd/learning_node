@@ -1,1 +1,26 @@
-[{"id":1,"name":"Wireless Noise-Canceling Headphones","category":"Electronics","price":199.99,"stock":45,"rating":4.7},{"id":2,"name":"Ergonomic Office Chair","category":"Furniture","price":249.5,"stock":20,"rating":4.5},{"id":3,"name":"Stainless Steel Water Bottle","category":"Kitchen & Dining","price":24.99,"stock":120,"rating":4.8},{"id":4,"name":"Smart Fitness Tracker","category":"Wearables","price":89.95,"stock":60,"rating":4.3},{"id":5,"name":"Organic Green Tea Blend","category":"Grocery","price":12.99,"stock":200,"rating":4.6},{"id":6,"name":"Mechanical Gaming Keyboard","category":"Electronics","price":119.99,"stock":35,"rating":4.4},{"id":7,"name":"Running Shoes","category":"Apparel","price":75,"stock":85,"rating":4.2},{"id":8,"name":"Cast Iron Skillet","category":"Kitchen & Dining","price":39.99,"stock":50,"rating":4.9},{"id":9,"name":"Electric Toothbrush","category":"Personal Care","price":64.95,"stock":70,"rating":4.5},{"id":1788594827574,"name":"Organic Green Tea Blend","category":"Grocery","rating":4.6},{"id":1788594835777,"name":"Organic Green Tea Blend","category":"Grocery","rating":4.6},{"id":1788594866534,"name":"Organic Green Tea Blend","category":"Grocery","rating":4.6},{"id":1788594904538,"name":"Organic Green Tea Blend","category":"Grocery","rating":4.6},{"id":1788614399875,"category":"Grocery","name":" Green Tea Blend","rating":4.6}]
+[
+    {
+        "id": 1,
+        "name": "Wireless Noise-Canceling Headphones",
+        "category": "Electronics",
+        "price": 199.99,
+        "stock": 45,
+        "rating": 4.7
+    },
+    {
+        "id": 2,
+        "name": "Ergonomic Office Chair",
+        "category": "Furniture",
+        "price": 249.5,
+        "stock": 20,
+        "rating": 4.5
+    },
+    {
+        "id": 1788614399875,
+        "name": " new new Skillet",
+        "category": "Kitchen & Dining",
+        "price": 39.99,
+        "stock": 50,
+        "rating": 4.9
+    }
+]
