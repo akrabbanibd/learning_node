@@ -65,14 +65,15 @@ export const productsController = async (req: IncomingMessage, res: ServerRespon
             }));
             return;
         }
-        const {id, ...bodyWithoutId}= body
+        
+        const { id, ...bodyWithoutId } = body
         const updatedProduct = {
             id: products[index].id,
             ...bodyWithoutId,
         }
 
 
-        products[index]= updatedProduct;
+        products[index] = updatedProduct;
         insertProduct(products)
         console.log("data updated")
         console.log(products, index, updatedProduct)
